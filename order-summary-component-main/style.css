@@ -1,0 +1,117 @@
+
+body{
+    font-family: 'Red Hat Display';
+    background-image: url(images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-color: hsl(225, 100%, 94%);
+    position: relative;
+    background-size: 100%;
+    
+    
+
+    
+}
+
+.bg_img{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    width: 100%;
+}
+.cardContainer{
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    background: white;
+    border-radius: 20px;
+    max-width: 400px;
+    align-self: center;
+}
+.middleCard{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.content{
+    background-color: white;
+    border-radius: 20px;
+}
+
+.text{
+    padding: 7%;
+    text-align: center;
+}
+
+.title{
+    font-weight: 900;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+.paragraph{
+    color: rgb(102, 102, 102);
+    margin-bottom: 25px;
+}
+
+.row{
+    border-radius: 20px;
+    display: flex;  
+    text-align: left;
+   
+
+}
+.mid_row{
+    background-color: hsl(225, 100%, 98%);
+    display: flex;
+    align-items: center;  
+    text-align: left;
+    border-radius: 20px;
+}
+.column{
+    justify-content: center;
+    display: flex;
+    width: 50%;
+    padding: 20px;
+}
+
+
+.plan_text{
+    font-weight: 700;
+    font-size: 16px;
+    display: block;
+    text-align: left;
+}
+.year{
+    font-weight: 400;
+    font-size: 14px;
+    display: block;
+}
+.change{
+   color: hsl(245, 75%, 52%);
+   font-weight: bold;
+}
+
+.proceed_btn{
+    display: block;
+    text-decoration: none;
+    color: white;
+    background-color: hsl(245, 75%, 52%);
+    padding: 10px;
+    border-radius: 10px;
+    margin: 30px;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(4, 23, 129, 0.2), 0 6px 20px 0 rgba(5, 35, 207, 0.19);
+}
+
+.cancel_btn{
+    display: block;
+    text-decoration: none;
+    color: hsl(224, 23%, 55%);
+    text-align: center;
+    font-weight: 200;
+    margin-bottom: 20px;
+    
+}
