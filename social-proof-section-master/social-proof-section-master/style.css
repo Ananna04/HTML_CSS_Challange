@@ -1,0 +1,120 @@
+body{
+    font-family: 'Spartan', sans-serif;  
+    background-image: url(images/bg-pattern-top-desktop.svg);
+    background-repeat: no-repeat;
+}
+.image_bg{
+    z-index: 0;
+}
+
+.all_elements{
+    min-height: 100vh;
+    align-items: center;
+
+}
+
+.first_box{
+    background-color: hsl(300, 43%, 22%);
+    margin-left: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+  
+}
+.second_box{
+    background-color: hsl(300, 43%, 22%);
+    margin-left: 20px;
+    border-radius: 10px;
+    margin-top: 40px;
+    margin-bottom: -40px;
+   
+  
+}
+.third_box{
+    background-color: hsl(300, 43%, 22%);
+    margin-left: 20px;
+    border-radius: 10px;
+    margin-top: 70px;
+    margin-bottom: -70px;
+   
+}
+
+.image{
+    border-radius: 50%;
+    border: 2px solid hsl(0, 0%, 81%);
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.image_name{
+    width: 90%;
+    margin: auto;
+}
+.name{
+    font-size: 13px;
+    color: hsl(210, 46%, 95%);
+    text-align: left;
+    margin-top: 40px;
+   
+}
+.position{
+    font-size: 13px;
+    color: hsl(333, 80%, 67%);
+    opacity: 50%;
+    text-align: left;
+    
+}
+.details{
+    font-weight: 600;
+    color:  hsl(0, 0%, 81%);
+    opacity: 70%;
+    font-size: 13px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    
+}
+
+.title{
+    font-size: 25px;
+    color: hsl(300, 43%, 22%);
+    font-weight: 900;
+}
+.sub_title{
+    font-size: 15px;
+    color: hsl(303, 10%, 53%);
+    font-weight: 500;
+}
+
+.star{
+    font-size: 13px;
+    background-color: hsl(300, 24%, 96%);
+    border-radius: 5px;
+    padding: 10px;
+    color: hsl(300, 43%, 22%);
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.star_second{
+    font-size: 13px;
+    background-color: hsl(300, 24%, 96%);
+    border-radius: 5px;
+    margin-right: -50px;
+    margin-left: 50px;
+    color: hsl(300, 43%, 22%);
+    font-weight: 700;
+    padding: 10px;
+    margin-bottom: 10px;
+   
+}
+.star_third{
+    font-size: 13px;
+    background-color: hsl(300, 24%, 96%);
+    border-radius: 5px;
+    margin-right: -90px;
+    margin-left: 90px;
+    color: hsl(300, 43%, 22%);
+    font-weight: 700;
+    padding: 10px;
+   
+}
+
